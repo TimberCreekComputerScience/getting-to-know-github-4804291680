@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+
+
+public class HelloWorld{
+
+     
+
+	public static void main(String []args){
+         
+        
+
+		Scanner lemonade = new Scanner(System.in);
+        
+        
+
+		System.out.println("How many lemonades do you want?");
+        
+
+		int cups = lemonade.nextInt();
+        
+        
+
+		int cost = 3;
+        
+
+		int total = cups * cost;
+        
+        
+
+		System.out.println(total);
+     
+	}
+
+}
